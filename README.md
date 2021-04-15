@@ -33,7 +33,7 @@ npm run start
 # se estiver utilizado o Visual Studio Code use: ( Ctrl+Shift+' )
 # e agora rode os seguintes comandos:
 
-cd ../front-end
+cd front-end
 
 # Instale as dependências
 npm install
