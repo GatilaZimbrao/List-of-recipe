@@ -11,15 +11,19 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Primeiramente clone este repositório
-git clone <https://github.com/GatilaZimbrao/teste-desenvolvedor-RG>
+git clone <https://github.com/GatilaZimbrao/teste-desenvolvedor-RGSistemas>
 
 # Acesse a pasta do projeto no terminal/cmd
-cd teste-desenvolvedor-RG
+cd teste-desenvolvedor-RGSistemas
+
+# Abrir o projeto no Visual Studio Code
+code .
 
 # Agora já no projeto você verá 2 pastas,
 # uma responsável pelo back-end e outra pela front end
 # será necessário instalar as depências e rodar cada uma
 # vamos começar pelo back-end:
+# abre o terminal do VSCode ( Ctrl + J ) e execute:
 
 cd back-end
 
@@ -30,7 +34,7 @@ npm install
 npm run start
 
 # agora será necessário abrir um novo terminal
-# se estiver utilizado o Visual Studio Code use: ( Ctrl+Shift+' )
+# pode usar o atalho: ( Ctrl+Shift+' ) ou clicar no " + " na aba do terminal
 # e agora rode os seguintes comandos:
 
 cd front-end
