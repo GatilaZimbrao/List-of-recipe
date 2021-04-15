@@ -4,9 +4,6 @@ import { Form, Button, Col } from "react-bootstrap";
 import "./style.css";
 import UserService from "../../Service/UserService";
 
-// import UserService from '../../Service/UserService';
-// import NotificationHelper from '../../Helpers/NotificationHelper';
-
 export default function SignInComponent() {
   const [Login, setLogin] = useState("");
   const [Password, setPassword] = useState("");

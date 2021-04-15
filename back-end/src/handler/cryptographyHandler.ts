@@ -1,5 +1,3 @@
-// var Crypto = require('crypto');
-
 import { createHmac } from 'crypto';
 
 module.exports = {

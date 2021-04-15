@@ -9,7 +9,6 @@ export default function SignUpComponent() {
   const [Login, setLogin] = useState("");
   const [Password, setPassword] = useState("");
   const [validated, setValidated] = useState(false);
-  // setValidated(false);
 
   const createUser = async (body) => {
     UserService.createUser(body).then(() => {});

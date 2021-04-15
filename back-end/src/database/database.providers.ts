@@ -12,7 +12,7 @@ export const databaseProviders = [
         password: 'root',
         database: 'teste_receitas_rg_sistemas',
         entities: [__dirname + '/../**/*.entity{.ts,.js}'],
-        // synchronize: true,
+        synchronize: true,
         logging: true,
       }),
   },

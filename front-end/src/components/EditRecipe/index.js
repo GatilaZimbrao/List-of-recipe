@@ -128,7 +128,6 @@ export default function EditRecipeComponent(props) {
               required
               placeholder="Select"
               size="lg"
-              // value={Category}
               style={{ marginBottom: "1rem" }}
               onChange={(e) => setCategory(e.target.value)}
             >

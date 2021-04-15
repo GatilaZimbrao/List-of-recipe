@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-// import Home from './Pages/Home';
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ViewRecipe from "./pages/ViewRecipe";
@@ -9,13 +8,10 @@ import EditRecipe from "./pages/EditRecipe";
 import RecipeList from "./pages/RecipeList";
 import UserService from "./Service/UserService";
 
-// import userService from "./Service/UserService";
-
 export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        {/* <Route path="/" exact component={Home}/> */}
         <Route path="/" exact component={SignIn} />
         <Route path="/login" exact component={SignIn} />
         <Route path="/register" exact component={SignUp} />

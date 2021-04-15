@@ -9,7 +9,6 @@ const UserService = {
         return response;
       });
 
-    console.log(response);
     return response;
   },
 

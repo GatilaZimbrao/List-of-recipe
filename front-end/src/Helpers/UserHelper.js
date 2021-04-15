@@ -1,5 +1,3 @@
-// import User from '../model/User';
-
 export default class UserHelper {
   static getSession() {
     const session = JSON.parse(localStorage.getItem("session"));
