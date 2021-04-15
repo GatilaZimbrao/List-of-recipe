@@ -62,7 +62,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-# Gabriel Zimbrão 👨‍💻
+<a href="https://github.com/GatilaZimbrao">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61389317?v=4" width="100px;" alt="GitHubImage"/>
+ <br /></a>
+
+### Gabriel Zimbrão 👨‍💻
 
 [![GitHub Badge](https://img.shields.io/badge/-GatilaZimbrao-lightgrey?style=flat-square&logo=github&logoColor=white&link=https://github.com/GatilaZimbrao/)](https://github.com/GatilaZimbrao)
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-%C3%A1tila-zimbr%C3%A3o-a642831a5/)](https://www.linkedin.com/in/gabriel-%C3%A1tila-zimbr%C3%A3o-a642831a5/)
