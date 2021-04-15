@@ -1,0 +1,81 @@
+/* Header */
+
+.header {
+  padding: 12px 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.header-container {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 15px;
+}
+.header--title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.header--title-content {
+  font-size: 24px;
+  text-transform: capitalize;
+
+  margin: 0;
+}
+
+.header--login-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+}
+.header--login-icon {
+  width: 30px;
+  height: 30px;
+}
+.header--login-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header--login-link,
+.header--login-link:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.header--login-text {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+
+  margin-left: 8px;
+}
+
+.header-container--img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header--title-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  .header--login-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .header--login-text {
+    font-size: 14px;
+    display: none;
+  }
+
+  .header-container--img-desktop {
+    display: none;
+  }
+  .header-container--img-mobile {
+    display: block;
+  }
+}

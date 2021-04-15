@@ -1,0 +1,120 @@
+/* ViewRecipe */
+
+.viewRecipe {
+  flex-direction: column;
+}
+
+.viewRecipe--title-conteiner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.viewRecipe--title {
+  text-transform: capitalize;
+  flex: 1;
+}
+
+.viewRecipe--print {
+  all: unset;
+  padding: 6px;
+  cursor: pointer;
+}
+.viewRecipe--print:hover {
+  color: #f55612;
+}
+
+.viewRecipe--content {
+  width: 100%;
+}
+.viewRecipe--content-row {
+  margin-bottom: 45px;
+}
+
+.viewRecipe--item-time,
+.viewRecipe--item-servings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewRecipe--wrapper-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewRecipe--wrapper svg {
+  margin-bottom: 10px;
+}
+
+.viewRecipe--preparation-title,
+.viewRecipe--ingredients-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ff6a28;
+}
+
+.viewRecipe--preparation--list-container,
+.viewRecipe--ingredients--list-container {
+  margin: 0 10%;
+  text-align: left;
+}
+
+.viewRecipe--ingredients--list-container {
+  padding-left: 22px;
+}
+
+.viewRecipe--ingredients--list-item::marker {
+  color: #595959;
+}
+.viewRecipe--preparation--list-item {
+  display: flex;
+  align-items: center;
+}
+.viewRecipe--preparation--list-item--count {
+  font-size: 36px;
+  line-height: normal;
+  margin-right: 20px;
+  color: #595959;
+}
+
+@media only screen and (max-width: 768px) {
+  .viewRecipe--preparation--list-container,
+  .viewRecipe--ingredients--list-container {
+    text-align: center;
+  }
+
+  .viewRecipe--preparation--list-item,
+  .viewRecipe--ingredients--list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .viewRecipe--ingredients--list-item::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #595959;
+    margin-right: 7px;
+  }
+
+  .viewRecipe--wrapper-content {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .viewRecipe--wrapper {
+    margin-bottom: 25px;
+  }
+}
+
+/* Omite o botão de imprimir durante a impressão */
+@media print {
+  .viewRecipe--print {
+    display: none;
+    /* visibility: hidden; */
+  }
+}
