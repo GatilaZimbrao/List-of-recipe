@@ -1,0 +1,10 @@
+/* RegisterRecipe */
+
+.recipeList {
+  padding: 25px;
+  padding-bottom: 80px;
+}
+.registerRecipe--title {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}

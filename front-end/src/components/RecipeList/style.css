@@ -1,0 +1,56 @@
+/* RecipeList */
+
+.recipeList {
+  flex-direction: column;
+}
+.recipeList--title {
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+.recipeList--searchBar {
+  width: 80%;
+  margin-bottom: 45px;
+}
+
+.recipeList--searchBar-input {
+  position: relative;
+}
+.recipeList--searchBar-input input {
+  padding-left: 48px;
+}
+.recipeList--searchBar-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  color: #495057;
+}
+
+.recipeList--list-container {
+  width: 80%;
+}
+
+.recipeList--list-item {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.recipeList--list-item--actions-link {
+  all: unset;
+
+  padding: 6px;
+  color: #282c34;
+  cursor: pointer;
+}
+.recipeList--list-item--actions-link:hover {
+  color: #007bff;
+}
+
+@media only screen and (max-width: 768px) {
+  .recipeList--searchBar,
+  .recipeList--list-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+/* Footer */
+
+.footer {
+  background-color: #282c34;
+  padding: 12px 0;
+}
+.footer-container {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  color: #fff;
+}
+
+.footer--links-container {
+  justify-content: flex-end;
+}
