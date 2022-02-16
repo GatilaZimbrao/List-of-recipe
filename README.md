@@ -1,6 +1,6 @@
-# Teste de Desenvolvedor FullStack RG
+# Site de gerenciamento de receitas
 
-Teste para a vaga de Desenvolvedor Full Stack da RG Sistemas
+BackEnd feito com NestJS, e FrontEnd front end com ReactJS
 
 ### Pré-requisitos
 
