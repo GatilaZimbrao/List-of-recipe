@@ -1,6 +1,6 @@
 # Site de gerenciamento de receitas
 
-BackEnd feito com NestJS, e FrontEnd front end com ReactJS
+BackEnd feito com NestJS, e FrontEnd feito com ReactJS
 
 ### Pré-requisitos
 
