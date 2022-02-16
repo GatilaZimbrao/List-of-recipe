@@ -11,10 +11,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Primeiramente clone este repositório
-git clone <https://github.com/GatilaZimbrao/teste-desenvolvedor-RGSistemas>
+git clone <https://github.com/GatilaZimbrao/list-of-recipe>
 
 # Acesse a pasta do projeto no terminal/cmd
-cd teste-desenvolvedor-RGSistemas
+cd list-of-recipe
 
 # Abrir o projeto no Visual Studio Code
 code .
