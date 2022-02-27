@@ -29,7 +29,7 @@ export default function Header() {
         </div>
         <div className=" header--title-container">
           <h1 className="header--title-content ">
-            desafio rg receitas culinarias
+            Lista de receitas
           </h1>
         </div>
         <div className=" header--login-container">
